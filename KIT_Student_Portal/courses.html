@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="KIT Student Portal - Wollo University, Kombolcha Institute of Technology">
+<title>Courses | KIT Student Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+ <div class="bar">
+  <div class="logo">KIT Student Portal</div>
+  <button id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav aria-label="Main navigation">
+   <ul id="menu">
+    <li><a href="index.html" >Home</a></li>
+    <li><a href="courses.html" class="active">Courses</a></li>
+    <li><a href="contact.html" >Contact</a></li>
+   </ul>
+  </nav>
+  <button id="themeBtn" aria-label="Switch dark or light theme">Theme</button>
+ </div>
+</header>
+<main>
+<h1>Course list</h1>
+<div class="tools">
+ <label for="search" class="sr">Search</label>
+ <input id="search" type="search" placeholder="Search by course name or code">
+ <label for="yearFilter" class="sr">Year</label>
+ <select id="yearFilter"><option value="all">All years</option><option value="1">Year 1</option><option value="2">Year 2</option><option value="3">Year 3</option></select>
+</div>
+<p id="count" aria-live="polite"></p>
+<div class="table-wrap">
+ <table>
+  <caption class="sr">Courses of the Department of Information System</caption>
+  <thead><tr><th scope="col">Code</th><th scope="col">Course</th><th scope="col">Year</th><th scope="col">ECTS</th><th scope="col">Department</th></tr></thead>
+  <tbody id="courseBody"></tbody>
+ </table>
+</div>
+</main>
+<footer>&copy; 2026 Wollo University, Kombolcha Institute of Technology - INSY3061 Group Project</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

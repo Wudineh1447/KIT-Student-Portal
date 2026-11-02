@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="KIT Student Portal - Wollo University, Kombolcha Institute of Technology">
+<title>Contact | KIT Student Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+ <div class="bar">
+  <div class="logo">KIT Student Portal</div>
+  <button id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav aria-label="Main navigation">
+   <ul id="menu">
+    <li><a href="index.html" >Home</a></li>
+    <li><a href="courses.html" >Courses</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+   </ul>
+  </nav>
+  <button id="themeBtn" aria-label="Switch dark or light theme">Theme</button>
+ </div>
+</header>
+<main>
+<h1>Contact the department</h1>
+<form id="contactForm" novalidate>
+ <div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" required><span class="error" id="nameErr"></span></div>
+ <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required><span class="error" id="emailErr"></span></div>
+ <div class="field"><label for="studentId">Student ID</label><input id="studentId" name="studentId" type="text" placeholder="KIT/1234/15" required><span class="error" id="studentIdErr"></span></div>
+ <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea><span class="error" id="messageErr"></span></div>
+ <button type="submit">Send message</button>
+</form>
+<div id="result" aria-live="polite"></div>
+</main>
+<footer>&copy; 2026 Wollo University, Kombolcha Institute of Technology - INSY3061 Group Project</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
