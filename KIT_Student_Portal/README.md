@@ -1,36 +1,43 @@
-# KIT Student Portal (INSY3061 Group Project)
+# KIT Student Portal
 
-A simple web portal for students of Kombolcha Institute of Technology, Wollo University.
+## Project Description
+KIT Student Portal is a simple website designed for students of Kombolcha Institute of Technology.
 
-## Problem
-Students cannot easily find the course list, announcements and a way to contact the department.
+The website provides course information, announcements, and a contact form for students.
 
-## Target users
-Students and department staff.
+## Project Objectives
+- Provide course information.
+- Display important announcements.
+- Allow students to contact the department.
+- Provide a simple and user-friendly interface.
 
-## Features
-- Home page with announcements
-- Courses page with **search** and **year filter** (data table)
-- Contact form with **JavaScript validation** (name, email, student ID, message)
-- Dark/light theme saved in localStorage
-- Responsive mobile menu; semantic HTML; labels, keyboard focus, aria attributes
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-## Technologies
-HTML5, CSS3, JavaScript (no libraries).
+## Main Features
+1. Home Page
+2. Courses Page
+3. Contact Page
+4. Search and Filter Courses
+5. Dark and Light Theme
+6. Responsive Design
 
-## How to run
-Open `index.html` in any browser. No installation needed.
+## Project Structure
+- index.html
+- courses.html
+- contact.html
+- css/
+- js/
 
-## Structure
-index.html, courses.html, contact.html, css/style.css, js/script.js
+## How to Run
+1. Download or clone this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open index.html in your browser.
 
-## Team (edit)
-| Member | Responsibility |
-|---|---|
-| Member 1 | Home page + CSS |
-| Member 2 | Courses page + filter JS |
-| Member 3 | Contact form + validation |
-| Member 4 | Testing + documentation |
+## GitHub Repository
+https://github.com/Wudineh1447/KIT-Student-Portal
 
-## GitHub
-(paste your repository link here)
+## Developed For
+Kombolcha Institute of Technology (KIT)
